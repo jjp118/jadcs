@@ -1,5 +1,9 @@
 body {
   font-family: 'Rubik Variable', sans-serif;
+  min-height: 100vh;
+ background: #FFF1D0;
+background: linear-gradient(0deg, rgba(255, 241, 208, 1) 0%, rgba(255, 249, 235, 1) 50%, rgba(237, 221, 83, 1) 100%);
+
 }
 
 .link {
@@ -31,3 +35,4 @@ body {
   from {transform: translateX(-100%); opacity: 0;}
   to {transform: translateX(0); opacity: 1;}
 }
+

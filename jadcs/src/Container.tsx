@@ -41,12 +41,12 @@ function WordFadeIn({ text, delay = 100, initialPause = 0, underlineWord = "" }:
 
 const Container = () => {
   return (
-    <div className="w-[50%] bg-[#9BB291] h-auto relative flex  ">
+    <div className="w-[50%] h-auto relative flex flex-1  ">
       <div className="w-[50%] h-80 relative top-30">
         <h1 className="text-7xl text-[#39393A]">
           <WordFadeIn text="Defining the next Generation of thinkers." underlineWord="Generation" />
         </h1>
-        <p className="text-lg border-10 p-2 slide-in mt-2">We are a STEM focused orginaztion aiming to provide interactive STEM instruction to kids everywhere, while shrinking the digital divide by providing technology access to those in need.</p>
+        <p className="text-lg p-2 slide-in mt-2">We are a STEM focused orginaztion aiming to provide interactive STEM instruction to kids everywhere, while shrinking the digital divide by providing technology access to those in need.</p>
       </div>
       <div className=" w-[50%] flex items-center justify-center">
         <StatsStack />

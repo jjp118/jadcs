@@ -40,7 +40,7 @@ function AnimatedStat({ value, label, prefix = "", delay = 0 }: StatItem & { del
 
 const StatStack = () => {
   return (
-    <div className="w-[50%] bg-[#9BB291] h-full relative">
+    <div className="w-[50%]  h-full relative">
       <div className="absolute top-30 left-8">
 
         {/* card */}
