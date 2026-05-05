@@ -1,0 +1,33 @@
+body {
+  font-family: 'Rubik Variable', sans-serif;
+}
+
+.link {
+  position: relative;
+  text-decoration: none;
+}
+
+.link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.link:hover::after {
+  opacity: 1;
+}
+
+.slide-in {
+  animation: slide-in-ani 1000ms ease-out both;
+}
+
+@keyframes slide-in-ani {
+  from {transform: translateX(-100%); opacity: 0;}
+  to {transform: translateX(0); opacity: 1;}
+}
